@@ -1,0 +1,35 @@
+{
+  "name": "knowledge-hub",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.1",
+    "@nuxtjs/vuetify": "^1.11.3",
+    "apexcharts": "^3.27.1",
+    "core-js": "^3.9.1",
+    "gsap": "file:gsap-bonus.tgz",
+    "moment": "^2.29.1",
+    "nuxt": "^2.15.3",
+    "nuxt-i18n": "^6.27.0",
+    "vue-2-breadcrumbs": "^0.8.0",
+    "vue-apexcharts": "^1.6.1",
+    "vue-i18n": "^8.24.4",
+    "vue-toastification": "^1.7.11",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@mdi/font": "^5.9.55",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "fibers": "^5.0.0",
+    "prettier": "^2.2.1",
+    "sass": "^1.34.1",
+    "sass-loader": "^10.2.0"
+  }
+}
