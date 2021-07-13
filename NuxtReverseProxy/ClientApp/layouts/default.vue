@@ -41,7 +41,7 @@
         <v-icon>mdi-menu</v-icon>
       </v-btn>
       <v-btn v-if="isAuthenticated" color="primary" href="/api/account/logout">
-        Logout
+        تسجيل الخروج
       </v-btn>
     </v-app-bar>
     <v-main v-if="!isAuthLoading">
